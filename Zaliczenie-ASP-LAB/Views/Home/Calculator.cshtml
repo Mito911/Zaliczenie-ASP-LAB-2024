@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Calculator";
+}
+
+<p>Wynik działania dla @ViewBag.Op</p>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator</title>
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    @if (ViewBag.Result != null)
+    {
+        <p>Wynik działania dla @ViewBag.A op @ViewBag.B = @ViewBag.Result</p>
+    }
+
+    <form asp-controller="Home" asp-action="Calculator" method="get">
+        <input type="hidden" name="op" value="@ViewBag.Op" />
+        <input type="text" name="a" placeholder="Liczba a" />
+        <input type="text" name="b" placeholder="Liczba b" />
+        <select name="operation">
+            <option value="add">Dodawanie</option>
+            <option value="subtract">Odejmowanie</option>
+            <option value="multiply">Mnożenie</option>
+            <option value="divide">Dzielenie</option>
+        </select>
+        <input type="submit" value="Oblicz" />
+    </form>
+</body>
+</html>
