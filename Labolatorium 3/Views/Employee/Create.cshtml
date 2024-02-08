@@ -1,0 +1,46 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Labolatorium_3.Models.Employee
+
+<div>
+    <label asp-for="Priority">Kategoria</label>
+    <select class="form-control" asp-for="Priority" asp-items="@Html.GetEnumSelectList<Priority>()"></select>
+    <span asp-validation-for="Priority" class="text-danger"></span>
+</div>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label asp-for="FirstName">Imię</label>
+    <input asp-for="FirstName" class="form-control" />
+    <span asp-validation-for="FirstName" class="text-danger"></span>
+
+    <label asp-for="LastName">Nazwisko</label>
+    <input asp-for="LastName" class="form-control" />
+    <span asp-validation-for="LastName" class="text-danger"></span>
+
+    <label asp-for="PESEL">PESEL</label>
+    <input asp-for="PESEL" class="form-control" />
+    <span asp-validation-for="PESEL" class="text-danger"></span>
+
+    <label asp-for="Position">Stanowisko</label>
+    <input asp-for="Position" class="form-control" />
+
+    <label asp-for="Department">Oddział</label>
+    <input asp-for="Department" class="form-control" />
+
+    <label asp-for="EmploymentDate">Data zatrudnienia</label>
+    <input asp-for="EmploymentDate" type="date" class="form-control" />
+
+    <label asp-for="TerminationDate">Data zwolnienia</label>
+    <input asp-for="TerminationDate" type="date" class="form-control" />
+
+    <button type="submit">Zapisz</button>
+</form>
+
+
+

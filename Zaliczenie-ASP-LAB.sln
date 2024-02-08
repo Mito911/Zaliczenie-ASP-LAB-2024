@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaliczenie-ASP-LAB", "Zaliczenie-ASP-LAB\Zaliczenie-ASP-LAB.csproj", "{EE134297-9DC6-4767-939F-AB598C978076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zaliczenie-ASP-LAB", "Zaliczenie-ASP-LAB\Zaliczenie-ASP-LAB.csproj", "{EE134297-9DC6-4767-939F-AB598C978076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorium 2", "Laboratorium 2\Laboratorium 2.csproj", "{C3972B1E-2FF3-4066-BF16-CCEFA16305B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorium 2", "Laboratorium 2\Laboratorium 2.csproj", "{C3972B1E-2FF3-4066-BF16-CCEFA16305B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labolatorium 3", "Labolatorium 3\Labolatorium 3.csproj", "{627F1873-A007-41C2-AE4E-23A9DC63E471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{6222A47E-3263-49A7-BCD9-FCA42301691D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C3972B1E-2FF3-4066-BF16-CCEFA16305B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3972B1E-2FF3-4066-BF16-CCEFA16305B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3972B1E-2FF3-4066-BF16-CCEFA16305B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{627F1873-A007-41C2-AE4E-23A9DC63E471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{627F1873-A007-41C2-AE4E-23A9DC63E471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{627F1873-A007-41C2-AE4E-23A9DC63E471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{627F1873-A007-41C2-AE4E-23A9DC63E471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6222A47E-3263-49A7-BCD9-FCA42301691D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6222A47E-3263-49A7-BCD9-FCA42301691D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6222A47E-3263-49A7-BCD9-FCA42301691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6222A47E-3263-49A7-BCD9-FCA42301691D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
