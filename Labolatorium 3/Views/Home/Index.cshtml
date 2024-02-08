@@ -6,3 +6,16 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+namespace Labolatorium_3.Services
+{
+    public interface IContactService
+    {
+        int Add(Contact contact);
+        void Delete(int id);
+        List<Contact>
+    FindAll();
+    Contact FindById(int id);
+    void Update(Contact contact);
+    }
+    }

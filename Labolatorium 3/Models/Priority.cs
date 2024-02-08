@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
+
+
 
 namespace Labolatorium_3.Models
-{
-    namespace Labolatorium_3.Models
     {
-        public enum Priority
+        
+    public enum Priority
         {
             [Display(Name = "Niski")]
             Low = 1,
@@ -18,4 +20,4 @@ namespace Labolatorium_3.Models
         }
     }
 
-}
+

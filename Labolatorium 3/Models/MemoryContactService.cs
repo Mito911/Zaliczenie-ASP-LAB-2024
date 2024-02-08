@@ -1,9 +1,9 @@
 ﻿using Labolatorium_3.Models; // Zakładam, że klasa Contact znajduje się tutaj
-using Labolatorium_3.Models.Labolatorium_3.Models;
 using Labolatorium_3.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 
 namespace Laboratorium_3___App_ns.Services // Zaktualizowana przestrzeń nazw
 {

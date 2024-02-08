@@ -1,4 +1,4 @@
-﻿using Labolatorium_3.Models.Labolatorium_3.Models;
+﻿using Labolatorium_3.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 

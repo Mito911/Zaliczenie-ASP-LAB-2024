@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using Labolatorium_3.Models.Labolatorium_3.Models;
+using Labolatorium_3.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Labolatorium_3.Models // Zmień Labolatorium_3 na nazwę Twojej przestrzeni nazw, jeśli jest inna
